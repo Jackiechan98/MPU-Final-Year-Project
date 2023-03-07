@@ -1,0 +1,125 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				 "navigationBarTitleText": "首頁-澳門資訊科技比賽",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+
+		, {
+			"path": "pages/my/my",
+			"style": {
+				 "navigationBarTitleText": "我的-澳門資訊科技比賽",
+				// "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陸-澳門資訊科技比賽",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "用戶註冊-澳門資訊科技比賽",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}, {
+			"path": "pages/login/changepassword",
+			"style": {
+				"navigationBarTitleText": "修改密碼-澳門資訊科技比賽",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		},
+		{
+			"path": "pages/login/forgetpassword",
+			"style": {
+				"navigationBarTitleText": "忘記密碼-澳門資訊科技比賽",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		
+		},
+		{
+			"path": "pages/upload/uploadvideo",
+			"style": {
+				"navigationBarTitleText": "上傳參賽資料-澳門資訊科技比賽",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}
+
+		, {
+			"path": "pages/upload/upload",
+			"style": {
+				"navigationBarTitleText": "上傳身份證-澳門資訊科技比賽",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+
+		}, {
+			"path": "pages/upload/uploadchange",
+			"style": {
+				"navigationBarTitleText": "修改個人資料-澳門資訊科技比賽",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "澳門資訊科技比賽",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"backgroundColor": "#FFFFFF",
+		"color": "#999999",
+		"selectedColor": "#4285c8",
+		"list": [{
+			"text": "首頁",
+			"pagePath": "pages/index/index",
+			"iconPath": "static/icons/main%20page-gray.png",
+			"selectedIconPath": "static/icons/main%20page-blue.png"
+		}, {
+			"text": "我的",
+			"pagePath": "pages/my/my",
+			"iconPath": "static/icons/my-gray.png",
+			"selectedIconPath": "static/icons/my-blue.png"
+		}]
+	}
+}

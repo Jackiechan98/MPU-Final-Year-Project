@@ -1,0 +1,25 @@
+
+.loginpage {
+	height: 1200rpx;
+}
+page {
+	background-color: white;
+}
+.title {
+	margin-left: 50rpx;
+}
+.login {
+	font-size: 250%;
+	font-weight: bold;
+	color: black;
+}
+.log-input {
+	height: 70rpx;
+	border-bottom: 1rpx solid #e7e7e7;
+}
+.input-fa {
+	padding-left: 55rpx;
+	padding-right: 80rpx;
+	margin-top: 70rpx;
+}
+

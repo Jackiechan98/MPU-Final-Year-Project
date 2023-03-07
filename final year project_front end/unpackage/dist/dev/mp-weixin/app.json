@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/login/register",
+    "pages/login/changepassword",
+    "pages/upload/uploadvideo",
+    "pages/upload/upload",
+    "pages/upload/uploadchange"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "澳門資訊科技比賽",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFFFFF",
+    "color": "#999999",
+    "selectedColor": "#4285c8",
+    "list": [
+      {
+        "text": "首頁",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/main%20page-gray.png",
+        "selectedIconPath": "static/icons/main%20page-blue.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "static/icons/my-gray.png",
+        "selectedIconPath": "static/icons/my-blue.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
