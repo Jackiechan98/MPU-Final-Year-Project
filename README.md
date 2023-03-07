@@ -1,0 +1,6 @@
+# MPU-Final-Year-Project
+All-in-one Web Portal for Macao-wide IT Competition
+
+The annual Alice3D competition is being held in progress. MPU always asks participants to submit their competition application forms in person at school, which not only increases the workload of participants but also makes the reviewers unable to efficiently check and approve those forms due to the negligence of participants. Reviewers also need to deal with a large number of competitive materials, all of the typos and unsuitable materials will take the reviewer a lot of time and cause various problems in the ceremony. This project was created to solve these problems.
+These are the high point of this project. First of all, the participants can not only obtain the information they need for the competition but also access the online submission form for the competition. Secondly, the functions of pattern recognition and information extraction on the uploaded student ID card and paper will facilitate the registration process. Besides, competition materials can then be uploaded to the portal later through a dedicated interface with sophisticated checks. Last but not least, various statistical reports can be generated for pre-defined purposes.
+
